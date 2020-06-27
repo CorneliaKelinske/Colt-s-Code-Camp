@@ -12,6 +12,9 @@
   flex-basis: 50%;
 }
 
+.box:nth-child(3n) {
+    flex-basis: 100%;
+}
 .box-1 {
   background: #e51400; 
 }
@@ -19,17 +22,16 @@
   background: #fa6800;
 }
 .box-3 {
-  background: #f0a30a;
-  flex-basis: 100%; 
+  background: #f0a30a;  
 }
 .box-4 {background: #e3c800; }
 .box-5 {background: #a4c400;}
 .box-6 {background: #60a917;
-flex-basis: 100%;}
+}
 .box-7 {background: #00aba9;}
 .box-8 {background: #1ba1e2;} 
 .box-9 {background: #aa00ff;
-flex-basis: 100%;}
+}
 
 /*  LAYOUT STYLES */
 .container {
